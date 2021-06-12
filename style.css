@@ -40,4 +40,16 @@ header {
     background-color: #FEE3EA;
 }
 
+header li {
+    display: inline-block;
+    margin: 1rem;
+    transform: none;
+    list-style: none;
+} 
+
+.logo img {
+    width: 50px;
+    margin: 0.5rem;
+}
+
 

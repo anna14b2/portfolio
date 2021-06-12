@@ -105,58 +105,63 @@ a:hover {
     padding: 3rem;
 }
 
-#third_section {
+#opgave_section {
     background-color: #FEE3EA;
 }
-#third_section h2,
-#third_section h3, 
-#third_section h4 {
+#opgave_section h2,
+#opgave_section h3, 
+#opgave_section h4 {
     text-align: center;
 }
-#third_section .section_wrapper {
+#opgave_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#third_section .col_top_left,
-#third_section .col_top_right,
-#third_section .col_bottom_left,
-#third_section .col_bottom_right {
+#opgave_section .col_top_left,
+#opgave_section .col_top_right,
+#opgave_section .col_bottom_left,
+#opgave_section .col_bottom_right {
     margin: 2rem;
     padding: 1.5rem;
 }
-#third_section .col_top_left {
+#opgave_section .col_top_left {
     background-image: url(billeder/grundlæggende.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
-#third_section .col_top_right {
+#opgave_section .col_top_right {
     background-image: url(billeder/ux.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
-#third_section .col_bottom_left {
+#opgave_section .col_bottom_left {
     background-image: url(billeder/trash.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
-#third_section .col_bottom_right {
+#opgave_section .col_bottom_right {
     background-image: url(billeder/ro\ copy.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
-#third_section a {
+#opgave_section a {
     text-decoration: none;
 }
-#third_section a:hover {
+#opgave_section a:hover {
     opacity: 35%;
 }
 
 /****index slut*******/
 /*****OM********/
+
+#section2 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 #section3 .section_wrapper{
     display: grid;
@@ -166,6 +171,7 @@ a:hover {
     background-color: #C6F6FF;
     margin: 1rem;
     padding: 0.5rem;
+    text-align: center;
 }
 
 @media (min-width: 700px) {

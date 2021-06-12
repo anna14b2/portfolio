@@ -210,6 +210,8 @@ a:hover {
 #section2 img {
     width: 70%;
     height: auto;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 #section2 .col_right {
     margin-top: 2rem;

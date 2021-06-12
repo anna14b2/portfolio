@@ -194,6 +194,10 @@ a:hover {
     width: 70%;
     height: auto;
 }
+#section2 .col_right {
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
 
 #section3 .section_wrapper{
     display: grid;

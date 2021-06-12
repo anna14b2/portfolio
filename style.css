@@ -107,8 +107,15 @@ a:hover {
 #third_section {
     background-color: #d7f9ff;
 }
+#third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 #third_section .col {
-    
+    background-color: #FEE3EA;
+}
+#third_section a {
+    text-decoration: none;
 }
 
 @media (min-width: 700px) {

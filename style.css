@@ -105,20 +105,45 @@ a:hover {
 }
 
 #third_section {
-    background-color: #d7f9ff;
+    background-color: #FEE3EA;
 }
-#third_section h3, h4 {
-    color: #FF2929;
+#third_section h2, h3, h4 {
     text-align: center;
 }
 #third_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#third_section .col {
-    background-color: #FEE3EA;
-    margin: 1.5rem;
-    padding: 1rem;
+#third_section .col_top_left,
+#third_section .col_top_right,
+#third_section .col_bottom_left,
+#third_section .col_bottom_right {
+    margin: 2rem;
+    padding: 1.5rem;
+}
+#third_section .col_top_left {
+    background-image: url(billeder/grundlæggende.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#third_section .col_top_right {
+    background-image: url(billeder/ux.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#third_section .col_bottom_left {
+    background-image: url(billeder/trash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#third_section .col_bottom_right {
+    background-image: url(billeder/ro\ copy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 #third_section a {
     text-decoration: none;

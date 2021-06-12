@@ -11,7 +11,7 @@ img {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 h2 {
     font-size: 3rem;
@@ -107,7 +107,9 @@ a:hover {
 #third_section {
     background-color: #FEE3EA;
 }
-#third_section h2, h3, h4 {
+#third_section h2,
+#third_section h3, 
+#third_section h4 {
     text-align: center;
 }
 #third_section .section_wrapper {

@@ -109,6 +109,7 @@ a:hover {
 }
 #third_section h3, h4 {
     color: #FF2929;
+    text-align: center;
 }
 #third_section .section_wrapper {
     display: grid;
@@ -117,10 +118,13 @@ a:hover {
 #third_section .col {
     background-color: #FEE3EA;
     margin: 1.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 #third_section a {
     text-decoration: none;
+}
+#third_section a:hover {
+    opacity: 35%;
 }
 
 @media (min-width: 700px) {

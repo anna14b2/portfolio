@@ -186,7 +186,8 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#section1 h1 {
+#section1 h1,
+#section3 h2 {
     text-align: center;
     padding: 2rem;
 }
@@ -215,6 +216,10 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1.5rem;
+}
+#section_one h1,
+#section_two h2 {
+    text-align: center;
 }
 #section_three .section_wrapper {
     display: grid;

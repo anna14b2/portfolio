@@ -186,6 +186,13 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+#section1 h1 {
+    text-align: center;
+}
+#section2 img {
+    width: 70%;
+    height: auto;
+}
 
 #section3 .section_wrapper{
     display: grid;

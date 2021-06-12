@@ -10,17 +10,27 @@ img {
 }
 
 h1 {
-
+    font-size: 5rem;
 }
 h2 {
-
+    font-size: 3rem;
 }
 h3 {
-
+    font-size: 2.5rem;
 }
 h4 {
-
+    font-size: 2rem;
 }
 p {
-    
+    font-size: 1rem;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+main > section {
+    grid-column: 2/3;
+}
+
+

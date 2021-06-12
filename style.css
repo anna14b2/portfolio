@@ -11,10 +11,12 @@ img {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
+    font-family: 'Abril Fatface', cursive;
 }
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
 }
 h3 {
     font-size: 2.5rem;
@@ -32,6 +34,13 @@ main {
 }
 main > section {
     grid-column: 2/3;
+}
+
+.knap {
+    padding: 1rem;
+    background-color: #FF2929;
+    color: #FEE3EA;
+    font-family: 'Abril Fatface', cursive;;
 }
 
 /*****Menu og header*****/
@@ -90,11 +99,19 @@ a:hover {
     background-color: #FEE3EA;
     width: 100%;
     height: 56.25vh;
-    background-position: 90%;
+    background-position: 70%;
     background-repeat: no-repeat;
     background-size: contain;
 }
+#first_section .heading {
+    grid-column: 2/5;
+}
+.opgave_knap {
+    grid-column: 2;
+ }
 #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr 1fr;
    }
 

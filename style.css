@@ -49,6 +49,20 @@ header li {
     list-style: none;
 } 
 
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FF2929;
+    border: 2px solid #FF2929;
+    border-radius: 1rem;
+    padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+}
+
+a:hover {
+    color: white;
+    border: 2px solid white;
+}
+
 .logo img {
     width: 50px;
     margin: 0.5rem;

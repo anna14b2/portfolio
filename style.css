@@ -60,5 +60,7 @@ header li {
     background-position: 90%;
     background-repeat: no-repeat;
     background-size: contain;
-    
 }
+#first_section .section_wrapper {
+    grid-template-rows: 1fr 1fr;
+   }

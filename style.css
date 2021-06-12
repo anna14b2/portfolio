@@ -188,6 +188,7 @@ a:hover {
 }
 #section1 h1 {
     text-align: center;
+    padding: 2rem;
 }
 #section2 img {
     width: 70%;

@@ -34,6 +34,7 @@ main > section {
     grid-column: 2/3;
 }
 
+/*****Menu og header*****/
 header {
     width: 100%;
     display: flex;
@@ -52,6 +53,7 @@ header li {
     width: 50px;
     margin: 0.5rem;
 }
+/****Menu og header slut****/
 
 #first_section {
     background-image: url(billeder/jeg.png);

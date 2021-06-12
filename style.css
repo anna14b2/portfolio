@@ -9,6 +9,9 @@ img {
     height: auto;
     object-fit: cover;
 }
+body {
+    background: #FEE3EA;
+}
 
 h1 {
     font-size: 4.5rem;
@@ -182,6 +185,16 @@ a:hover {
 /****index slut*******/
 /*****OM********/
 
+#section1 {
+    background: #C6F6FF;
+}
+#section2 {
+    background: #C6F6FF;
+}
+#section3 {
+    background: #FEE3EA;
+}
+
 #section2 .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -190,6 +203,10 @@ a:hover {
 #section3 h2 {
     text-align: center;
     padding: 2rem;
+}
+#opgave_section h2 {
+    margin-top: 3rem;
+    
 }
 #section2 img {
     width: 70%;
@@ -210,6 +227,17 @@ a:hover {
     padding: 0.5rem;
     text-align: center;
 }
+#section3 h3 {
+    font-family: 'Abril Fatface', cursive; 
+    font-weight:lighter;
+}
+#section3 .col:hover {
+    background-color: #FEE3EA;
+    color: #FF2929;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
 
 /*****WEB og andre grundlæggende undersider*******/
 #section_two .section_wrapper {
@@ -220,6 +248,7 @@ a:hover {
 #section_one h1,
 #section_two h2 {
     text-align: center;
+    margin: 2rem;
 }
 #section_three .section_wrapper {
     display: grid;

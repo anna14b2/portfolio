@@ -107,12 +107,17 @@ a:hover {
 #third_section {
     background-color: #d7f9ff;
 }
+#third_section h3, h4 {
+    color: #FF2929;
+}
 #third_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 #third_section .col {
     background-color: #FEE3EA;
+    margin: 1.5rem;
+    padding: 0.5rem;
 }
 #third_section a {
     text-decoration: none;

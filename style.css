@@ -69,12 +69,14 @@ a:hover {
 }
 
 #menuknap {
+    display: inline-block;
     text-decoration: none;
     border: none;
     font-size: 2.5rem;
     cursor: pointer;
     color: #FF2929;
     background-color: #FEE3EA;
+    
 }
 /****Menu og header slut****/
 
@@ -93,6 +95,8 @@ a:hover {
 
 #second_section {
     background-color: #FFF9B5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 #third_section {
     background-color: #d7f9ff;

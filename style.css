@@ -108,3 +108,21 @@ a:hover {
 #third_section {
     background-color: #d7f9ff;
 }
+
+@media (min-width: 700px) {
+    #menu {
+        flex-basis: 0;
+    }
+    #menuknap {
+        display: none;
+    }
+    nav {
+        display: flex;
+    }
+    header ul {
+        display: flex;
+    }
+    .hidden {
+        display: flex;
+    }
+}

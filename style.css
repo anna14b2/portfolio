@@ -54,10 +54,9 @@ main > section {
 
 /*****Menu og header*****/
 header {
-    width: 100%;
+    position: sticky;
     display: flex;
     justify-content: space-between;
-    background-color: #FEE3EA;
 }
 
 header li {
@@ -186,10 +185,10 @@ a:hover {
 /*****OM********/
 
 #section1 {
-    background: #C6F6FF;
+    background: #FFF9B5;
 }
 #section2 {
-    background: #C6F6FF;
+    background: #FFF9B5;
 }
 #section3 {
     background: #FEE3EA;
@@ -240,20 +239,40 @@ a:hover {
 }
 
 /*****WEB og andre grundlæggende undersider*******/
+#section_one h1 {
+    color: #FF2929;
+}
 #section_two .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 1.5rem;
+    padding: 2rem;
+}
+#section_two .col_left {
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+#section_two .col_right {
+    padding-top: 4rem;
 }
 #section_one h1,
 #section_two h2 {
     text-align: center;
     margin: 2rem;
 }
+#section_three {
+    background: #FFF9B5;
+}
 #section_three .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1.5rem;
+}
+#section_three img {
+    width: 80%;
+    height: auto;
+}
+#section_three .col_left {
+    padding-bottom: 2rem;
 }
 #section_four .col {
     display: grid;

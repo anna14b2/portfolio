@@ -71,6 +71,7 @@ nav a {
     border: 2px solid #FF2929;
     border-radius: 1rem;
     padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+    font-family: 'Abril Fatface', cursive;
 }
 
 a:hover {
@@ -151,25 +152,25 @@ a:hover {
     background-image: url(billeder/grundlæggende.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
 }
 #opgave_section .col_top_right {
     background-image: url(billeder/ux.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
 }
 #opgave_section .col_bottom_left {
     background-image: url(billeder/trash.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
 }
 #opgave_section .col_bottom_right {
     background-image: url(billeder/ro\ copy.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
 }
 #opgave_section a {
     text-decoration: none;

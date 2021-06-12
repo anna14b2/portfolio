@@ -101,12 +101,14 @@ a:hover {
     background-color: #FFF9B5;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-#second_section .col_right {
     padding: 3rem;
 }
+
 #third_section {
     background-color: #d7f9ff;
+}
+#third_section .col {
+    
 }
 
 @media (min-width: 700px) {

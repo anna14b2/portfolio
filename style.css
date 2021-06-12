@@ -83,6 +83,7 @@ a:hover {
     display: none;
 }
 /****Menu og header slut****/
+/*****index********/
 
 #first_section {
     background-image: url(billeder/jeg.png);
@@ -154,6 +155,19 @@ a:hover {
     opacity: 35%;
 }
 
+/****index slut*******/
+/*****OM********/
+
+#section3 .section_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#section3 .col {
+    background-color: #C6F6FF;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
 @media (min-width: 700px) {
     #menu {
         flex-basis: 0;
@@ -171,3 +185,4 @@ a:hover {
         display: flex;
     }
 }
+

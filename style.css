@@ -325,6 +325,11 @@ a:hover {
         grid-column: 1/5;
         grid-row: 3;
      }
-
+     #second_section {
+         display: block;
+     } 
+     #second_section .knap {
+         
+     }
 }
 

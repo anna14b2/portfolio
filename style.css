@@ -332,5 +332,8 @@ a:hover {
      #second_section .knap {
          margin: 2rem;
      }
+     #opgave_section .section_wrapper {
+         display: block;
+     }
 }
 

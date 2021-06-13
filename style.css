@@ -327,9 +327,10 @@ a:hover {
      }
      #second_section {
          display: block;
+         grid-template-columns: 1fr 1fr 1fr;
      } 
      #second_section .knap {
-         
+         margin: 2rem;
      }
 }
 

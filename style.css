@@ -287,7 +287,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+/******MEDIA QUERIES********/
 @media (min-width: 700px) {
     #menu {
         flex-basis: 0;
@@ -304,6 +304,5 @@ a:hover {
     .hidden {
         display: flex;
     }
-    
 }
 

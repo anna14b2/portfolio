@@ -130,6 +130,13 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     padding: 3rem;
 }
+#second_section p {
+    padding: 2rem;
+}
+#second_section img {
+    width: 80%;
+    margin-left: 2rem;
+}
 
 #opgave_section {
     background-color: #FEE3EA;

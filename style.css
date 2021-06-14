@@ -335,5 +335,19 @@ a:hover {
      #opgave_section .section_wrapper {
          display: block;
      }
+     /****OM****/
+     #section2 .section_wrapper {
+        display: block;
+    }
+     #section3 .section_wrapper {
+         display: block;
+     }
+     /****Grundlæggende sider***/
+     #section_two .section_wrapper {
+         display: block;
+     }
+     #section_three .section_wrapper {
+        display: block;
+    }
 }
 

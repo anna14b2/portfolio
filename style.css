@@ -286,7 +286,8 @@ a:hover {
 }
 #section_four .col {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
 }
 /******MEDIA QUERIES********/
 @media (min-width: 700px) {

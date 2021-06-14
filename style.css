@@ -289,6 +289,10 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
 }
+#section_four .billede_gruppe {
+    display: flex;
+    justify-content: space-between;
+}
 /******MEDIA QUERIES********/
 @media (min-width: 700px) {
     #menu {

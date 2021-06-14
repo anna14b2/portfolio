@@ -61,6 +61,11 @@ header {
     scroll-behavior: smooth;
     box-shadow: 0px 0px 10px rgb(255, 192, 192);
     padding: 0.3rem 0.5rem;
+    top: 0;
+    width: 100%;
+    background-color: #FEE3EA;
+    flex-wrap: wrap;
+
 }
 
 header li {
@@ -146,7 +151,7 @@ footer .ig {
    }
 
 #second_section {
-    background-color: #FFF9B5;
+    background: #FFF9B5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3rem;

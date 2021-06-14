@@ -349,5 +349,8 @@ a:hover {
      #section_three .section_wrapper {
         display: block;
     }
+    #section_four .col {
+        display: block;
+    }
 }
 

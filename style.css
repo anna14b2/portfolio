@@ -104,6 +104,15 @@ nav a:hover {
     display: none;
 }
 /****Menu og header slut****/
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   margin: 2rem;
+   
+    padding: 0.5rem;
+}
+
 /*****index********/
 
 

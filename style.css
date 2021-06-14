@@ -107,14 +107,20 @@ nav a:hover {
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-   margin: 2rem;
-    padding: 0.5rem;
+grid-template-columns: 3fr 1fr 3fr;
+margin: 2rem;
+padding: 0.5rem;
 }
-footer .ikon {
-    width: 20%;
+footer #right {
     display: flex;
 }
+footer .fb {
+    width: 52%;
+}
+footer .ig {
+    width: 60%;
+}
+
 /*****index********/
 
 

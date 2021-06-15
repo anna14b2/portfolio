@@ -268,13 +268,7 @@ footer .ig {
     font-family: 'Abril Fatface', cursive; 
     font-weight:lighter;
 }
-#section3 .col:hover {
-    background-color: #FEE3EA;
-    color: #FF2929;
-    margin: 1rem;
-    padding: 0.5rem;
-    text-align: center;
-}
+
 
 /*****WEB og andre grundlæggende undersider*******/
 #section_one h1 {

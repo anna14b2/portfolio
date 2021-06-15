@@ -41,7 +41,9 @@ main {
 main > section {
     grid-column: 2/3;
 }
-
+.button {
+    margin-top: 3vw;
+}
 .knap {
     padding: 1vw;
     background-color: #FF2929;

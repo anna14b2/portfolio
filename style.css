@@ -324,6 +324,9 @@ footer .ig {
 #section_three .col_left {
     padding-bottom: 2rem;
 }
+#section_three .cup {
+    padding: 6rem;
+}
 
 /******MEDIA QUERIES********/
 @media (min-width: 700px) {

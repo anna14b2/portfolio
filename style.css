@@ -190,6 +190,7 @@ footer .ig {
 #opgave_section h3, 
 #opgave_section h4 {
     text-align: center;
+    color: black;
 }
 #opgave_section .section_wrapper {
     display: grid;
@@ -325,7 +326,7 @@ footer .ig {
     padding-bottom: 2rem;
 }
 #section_three .cup {
-    padding: 6rem;
+    padding: rem;
 }
 
 /******MEDIA QUERIES********/

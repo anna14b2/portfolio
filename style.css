@@ -110,7 +110,6 @@ nav a {
 }
 #menu {
     flex-basis: 100%;
-    margin: 1rem;
     padding: 1rem;
 }
 nav a:hover {

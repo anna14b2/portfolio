@@ -263,8 +263,7 @@ footer .ig {
 #section2 img {
     width: 100%;
     height: auto;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 #section2 .col_right {
     margin-top: 2rem;
@@ -398,6 +397,10 @@ footer .ig {
     }
      #section_three .section_wrapper {
         display: block;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
     }
 }
 

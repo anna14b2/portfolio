@@ -41,18 +41,22 @@ main {
 main > section {
     grid-column: 2/3;
 }
-.button {
-    margin-top: 3vw;
-}
+
 .knap {
-    padding: 1vw;
+    padding: 2vw;
     background-color: #FF2929;
     color: #FEE3EA;
     font-family: 'Abril Fatface', cursive;
     text-decoration: none;
     font-size: 1.5rem;
     cursor: pointer;
-    margin: 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*****Menu og header*****/
@@ -163,6 +167,8 @@ footer .ig {
 }
 .opgave_knap {
     grid-column: 2;
+    grid-row: 2;
+    margin-top: 5vw;
  }
 #first_section .section_wrapper {
     display: grid;

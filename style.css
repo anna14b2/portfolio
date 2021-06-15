@@ -43,7 +43,7 @@ main > section {
 }
 
 .knap {
-    padding: 2vw;
+    padding: 1vw;
     background-color: #FF2929;
     color: #FEE3EA;
     font-family: 'Abril Fatface', cursive;
@@ -53,6 +53,12 @@ main > section {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin: 1vw;
+}
+.knap:hover {
+    padding: 1.2vw;
+    background-color: #FFF9B5;
+    color: #FF2929;
 }
 
 a {
@@ -367,7 +373,7 @@ footer .ig {
         font-size: 1.7rem;
     }
     .knap {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: 2vw;
     }
     

@@ -56,12 +56,15 @@ main > section {
 /*****Menu og header*****/
 header {
     position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
     box-shadow: 0px 0px 10px rgb(255, 192, 192);
     padding: 0.3rem 0.5rem;
-    top: 0;
+    
+    align-items: center;
     width: 100%;
     background-color: #FEE3EA;
     flex-wrap: wrap;
@@ -69,10 +72,20 @@ header {
 }
 
 header li {
-    display: inline-block;
-    margin: 1rem;
     list-style: none;
-} 
+    margin: 0.5rem;
+}
+
+header nav {
+    display: contents;
+}
+
+header a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0.1rem;
+}
 
 nav a {
     text-decoration: none;
@@ -82,8 +95,13 @@ nav a {
     border-radius: 1rem;
     padding: 0.4rem 0.7rem 0.4rem 0.7rem;
     font-family: 'Abril Fatface', cursive;
+   
 }
-
+#menu {
+    flex-basis: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
 nav a:hover {
     color: white;
     border: 2px solid white;
@@ -341,6 +359,7 @@ footer .ig {
     .knap {
         font-size: 0.8rem;
     }
+    
     #first_section .heading {
         grid-column: 1/5;
         grid-row: 2;

@@ -43,14 +43,14 @@ main > section {
 }
 
 .knap {
-    padding: 1rem;
+    padding: 1vw;
     background-color: #FF2929;
     color: #FEE3EA;
     font-family: 'Abril Fatface', cursive;
     text-decoration: none;
     font-size: 1.5rem;
     cursor: pointer;
-    margin: 1rem;
+    margin: 1vw;
 }
 
 /*****Menu og header*****/
@@ -73,7 +73,7 @@ header {
 
 header li {
     list-style: none;
-    margin: 0.5rem;
+    margin: 0.5vw;
 }
 
 header nav {
@@ -84,7 +84,6 @@ header a {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin: 0.1rem;
 }
 
 nav a {
@@ -131,8 +130,8 @@ nav a:hover {
 footer {
 display: grid;
 grid-template-columns: 3fr 1fr 3fr;
-margin-top: 2rem;
-padding: 0.5rem;
+margin-top: 2vw;
+padding: 1vw;
 box-shadow: 0px -5px 8px #ffd5e0;
 }
 footer #right {
@@ -173,14 +172,14 @@ footer .ig {
     background: #FFF9B5;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 3rem;
+    padding: 3vw;
 }
 #second_section p {
-    padding: 2rem;
+    padding: 2vw;
 }
 #second_section img {
     width: 80%;
-    margin-left: 2rem;
+    margin-left: 2vw; 
 }
 
 #opgave_section {
@@ -361,6 +360,7 @@ footer .ig {
     }
     .knap {
         font-size: 0.8rem;
+        padding: 2vw;
     }
     
     #first_section .heading {
